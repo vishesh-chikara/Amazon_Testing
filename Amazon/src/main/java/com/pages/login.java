@@ -17,7 +17,7 @@ public class login {
 	        driver.manage().window().maximize();
 	    }
 
-	    @Test
+	    @Test(description="to open the URL")
 	    public void openURL() throws InterruptedException {
 	        driver.get("https://www.amazon.in/");
 	        Thread.sleep(3000);
@@ -26,6 +26,6 @@ public class login {
 
 	    @AfterClass
 	    public void tearDown() {
-	        driver.quit();
+	        driver.close();
 	    }
 }
