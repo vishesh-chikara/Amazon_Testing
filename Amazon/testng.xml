@@ -3,7 +3,7 @@
 <suite name="amazonTestSuite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.BaseClass.Amazon_BaseClass"/>
+      
       <class name="com.testcases.LaunchURL"/>
     </classes>
   </test> <!-- Test -->

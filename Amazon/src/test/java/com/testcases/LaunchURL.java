@@ -1,5 +1,6 @@
 package com.testcases;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.BaseClass.Amazon_BaseClass;
@@ -12,8 +13,10 @@ public class LaunchURL extends Amazon_BaseClass {
 	@Test(description = "to open the URL and get the title")
 	public void openURL() throws InterruptedException {
 		System.out.println("Page title is: " + driver.getTitle());
+		Assert.assertEquals(driver.getTitle(),"Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
+		
 		System.out.println("current title is :" + driver.getCurrentUrl());
-		System.out.println("page source is : " + driver.getPageSource());
+	
 	}
 	
 	
