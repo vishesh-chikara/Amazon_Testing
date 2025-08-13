@@ -10,7 +10,7 @@ public class LaunchURL extends Amazon_BaseClass {
 
 	//WebDriver driver;
 
-	@Test(description = "to open the URL and get the title")
+	@Test(priority=1, description = "to open the URL and get the title")
 	public void openURL() throws InterruptedException {
 		System.out.println("Page title is: " + driver.getTitle());
 		Assert.assertEquals(driver.getTitle(),"Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in");
