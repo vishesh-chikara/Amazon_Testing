@@ -5,8 +5,9 @@
     <classes>
       
       <class name="com.testcases.LaunchURL"/>
-       <class name="com.testcases.TypeSearch"/>
-        <class name="com.testcases.Login"/>
+      <class name="com.testcases.Test_HomePage"/>
+       <class name="com.testcases.Test_Search"/>
+        <class name="com.testcases.Test_Login"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
