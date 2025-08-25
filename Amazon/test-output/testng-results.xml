@@ -1,71 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-14T18:17:16 IST" name="amazonTestSuite" finished-at="2025-08-14T18:18:40 IST" duration-ms="83539">
+  <suite started-at="2025-08-25T21:29:08 IST" name="Default suite" finished-at="2025-08-25T21:29:22 IST" duration-ms="14748">
     <groups>
     </groups>
-    <test started-at="2025-08-14T18:17:16 IST" name="Test" finished-at="2025-08-14T18:18:40 IST" duration-ms="83539">
-      <class name="com.testcases.LaunchURL">
-        <test-method is-config="true" signature="load()[pri:0, instance:com.testcases.LaunchURL@15a34df2]" started-at="2025-08-14T18:17:16 IST" name="load" finished-at="2025-08-14T18:17:16 IST" duration-ms="39" status="PASS">
+    <test started-at="2025-08-25T21:29:08 IST" name="Default test" finished-at="2025-08-25T21:29:22 IST" duration-ms="14748">
+      <class name="com.testcases.Test_Suggestion">
+        <test-method is-config="true" signature="load()[pri:0, instance:com.testcases.Test_Suggestion@338fc1d8]" started-at="2025-08-25T21:29:08 IST" name="load" finished-at="2025-08-25T21:29:08 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- load -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.LaunchURL@15a34df2]" started-at="2025-08-14T18:17:17 IST" name="setup" finished-at="2025-08-14T18:17:27 IST" duration-ms="10787" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.Test_Suggestion@338fc1d8]" started-at="2025-08-25T21:29:08 IST" name="setup" finished-at="2025-08-25T21:29:12 IST" duration-ms="4008" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="openURL()[pri:1, instance:com.testcases.LaunchURL@15a34df2]" started-at="2025-08-14T18:17:27 IST" name="openURL" description="to open the URL and get the title" finished-at="2025-08-14T18:17:30 IST" duration-ms="2734" status="PASS">
+        <test-method signature="ValidateSuggestion()[pri:0, instance:com.testcases.Test_Suggestion@338fc1d8]" started-at="2025-08-25T21:29:12 IST" name="ValidateSuggestion" finished-at="2025-08-25T21:29:22 IST" duration-ms="10402" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openURL -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.LaunchURL@15a34df2]" started-at="2025-08-14T18:17:30 IST" name="tearDown" finished-at="2025-08-14T18:17:31 IST" duration-ms="950" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.testcases.LaunchURL -->
-      <class name="com.testcases.Test_Login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.Test_Login@f1da57d]" started-at="2025-08-14T18:18:14 IST" name="setup" finished-at="2025-08-14T18:18:25 IST" duration-ms="11160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Login_to_Amazon()[pri:4, instance:com.testcases.Test_Login@f1da57d]" started-at="2025-08-14T18:18:25 IST" name="Login_to_Amazon" description="to test the login fucn with valid user and pass" finished-at="2025-08-14T18:18:39 IST" duration-ms="13585" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Login_to_Amazon -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.Test_Login@f1da57d]" started-at="2025-08-14T18:18:39 IST" name="tearDown" finished-at="2025-08-14T18:18:40 IST" duration-ms="1359" status="PASS">
+        </test-method> <!-- ValidateSuggestion -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.Test_Suggestion@338fc1d8]" started-at="2025-08-25T21:29:22 IST" name="tearDown" finished-at="2025-08-25T21:29:22 IST" duration-ms="300" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.testcases.Test_Login -->
-      <class name="com.testcases.Test_Search">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.Test_Search@480d3575]" started-at="2025-08-14T18:17:49 IST" name="setup" finished-at="2025-08-14T18:17:57 IST" duration-ms="8416" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="SearchBar()[pri:3, instance:com.testcases.Test_Search@480d3575]" started-at="2025-08-14T18:17:57 IST" name="SearchBar" description="to test the search functionality by enter mobile" finished-at="2025-08-14T18:18:13 IST" duration-ms="15982" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- SearchBar -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.Test_Search@480d3575]" started-at="2025-08-14T18:18:13 IST" name="tearDown" finished-at="2025-08-14T18:18:14 IST" duration-ms="815" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.testcases.Test_Search -->
-      <class name="com.testcases.Test_HomePage">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.testcases.Test_HomePage@1807e3f6]" started-at="2025-08-14T18:17:31 IST" name="setup" finished-at="2025-08-14T18:17:36 IST" duration-ms="4506" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="Validate_UI()[pri:2, instance:com.testcases.Test_HomePage@1807e3f6]" started-at="2025-08-14T18:17:36 IST" name="Validate_UI" description="to verify the UI on homePage" finished-at="2025-08-14T18:17:48 IST" duration-ms="12139" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Validate_UI -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testcases.Test_HomePage@1807e3f6]" started-at="2025-08-14T18:17:48 IST" name="tearDown" finished-at="2025-08-14T18:17:49 IST" duration-ms="851" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.testcases.Test_HomePage -->
-    </test> <!-- Test -->
-  </suite> <!-- amazonTestSuite -->
+      </class> <!-- com.testcases.Test_Suggestion -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

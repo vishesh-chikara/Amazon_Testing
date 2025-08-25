@@ -21,9 +21,9 @@ public class Search_field extends Amazon_BaseClass {
 	}
 
 	public void Search() throws InterruptedException {
-		Enter_Product.sendKeys("mobile");
+		Enter_Product.sendKeys("Mobile");
 		SearchEnter.click();
-		Thread.sleep(3000);
+		Thread.sleep(8000);
 
 	}
 
