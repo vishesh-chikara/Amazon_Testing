@@ -8,6 +8,7 @@
       <class name="com.testcases.Test_HomePage"/>
        <class name="com.testcases.Test_Search"/>
         <class name="com.testcases.Test_Login"/>
+        <class name="com.testcases.Test_Suggestion"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
