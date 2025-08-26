@@ -14,11 +14,7 @@ public class Test_Login extends Amazon_BaseClass {
 
 		Login_Page Login = new Login_Page(driver);
 
-		Login.clickAccount();
-		Login.SetUsername();
-		Login.ClickSubmit();
-		Login.settXtpassword();
-		Login.Login();
+		Login.Login_Amazon();
 		Thread.sleep(3000);
 
 	}

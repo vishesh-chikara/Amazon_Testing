@@ -8,6 +8,9 @@ import org.openqa.selenium.support.PageFactory;
 import com.BaseClass.Amazon_BaseClass;
 
 public class Login_Page extends Amazon_BaseClass {
+	
+	@FindBy(xpath= "//button[@alt='Continue shopping']")
+	WebElement Continue;
 
 	@FindBy(xpath = "//span[@id='nav-link-accountList-nav-line-1']")
 	WebElement Click_Account;
@@ -31,26 +34,17 @@ public class Login_Page extends Amazon_BaseClass {
 	public Login_Page(WebDriver driver) {
 		PageFactory.initElements(driver, this);
 	}
-
-	public void clickAccount() {
+	
+	public void Login_Amazon()
+	{
+		Continue.click();
 		Click_Account.click();
-	}
-
-	public void SetUsername() {
 		username.sendKeys("visheshkumar0012@gmail.com");
-	}
-
-	public void ClickSubmit() {
 		Submit.click();
-	}
-
-	public void settXtpassword() {
 		password.sendKeys("Dennie#0420");
-	}
-
-	public void Login() {
 		SignIn.click();
 	}
+
 
 	public void forgetPassword() {
 		forgetPassword.click();
