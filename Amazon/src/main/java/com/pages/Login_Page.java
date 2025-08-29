@@ -9,10 +9,9 @@ import com.BaseClass.Amazon_BaseClass;
 
 public class Login_Page extends Amazon_BaseClass {
 	
-	@FindBy(xpath= "//button[@alt='Continue shopping']")
-	WebElement Continue;
+	
 
-	@FindBy(xpath = "//span[@id='nav-link-accountList-nav-line-1']")
+	@FindBy(xpath = "//span[normalize-space()='Account & Lists']")
 	WebElement Click_Account;
 
 	@FindBy(id = "ap_email_login")
@@ -37,11 +36,11 @@ public class Login_Page extends Amazon_BaseClass {
 	
 	public void Login_Amazon()
 	{
-		Continue.click();
+		
 		Click_Account.click();
-		username.sendKeys("visheshkumar0012@gmail.com");
+		username.sendKeys("visheshkumar813@gmail.com");
 		Submit.click();
-		password.sendKeys("Dennie#0420");
+		password.sendKeys("Vishesh#12345");
 		SignIn.click();
 	}
 

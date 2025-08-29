@@ -9,8 +9,7 @@ import com.BaseClass.Amazon_BaseClass;
 
 public class Search_field extends Amazon_BaseClass {
 
-	@FindBy(xpath = "//button[@alt='Continue shopping']")
-	WebElement Continue;
+	
 
 	@FindBy(id = "twotabsearchtextbox")
 	WebElement Enter_Product;
@@ -24,7 +23,7 @@ public class Search_field extends Amazon_BaseClass {
 	}
 
 	public void Search() throws InterruptedException {
-		Continue.click();
+		
 		Enter_Product.sendKeys("Mobile");
 		SearchEnter.click();
 		Thread.sleep(8000);

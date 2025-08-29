@@ -3,14 +3,14 @@
 <suite name="Failed suite [amazonTestSuite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.testcases.LaunchURL">
+      <class name="com.testcases.Test_HomePage">
         <methods>
-          <include name="openURL"/>
           <include name="load"/>
           <include name="setup"/>
           <include name="tearDown"/>
+          <include name="Validate_UI"/>
         </methods>
-      </class> <!-- com.testcases.LaunchURL -->
+      </class> <!-- com.testcases.Test_HomePage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [amazonTestSuite] -->

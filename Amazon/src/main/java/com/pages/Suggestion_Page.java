@@ -13,18 +13,9 @@ import com.BaseClass.Amazon_BaseClass;
 
 public class Suggestion_Page extends Amazon_BaseClass {
 
-	@FindBy(xpath = "//button[@alt='Continue shopping']")
-	WebElement Continue;
-
-	public Suggestion_Page(WebDriver driver) {
-		PageFactory.initElements(driver, this);
-	}
-	
-	
-
 	public void verifySearchSuggestions() throws InterruptedException {
 
-		Continue.click();
+	
 
 		// Step 1: Enter input in the search bar
 		WebElement searchBox = driver.findElement(By.id("twotabsearchtextbox"));
